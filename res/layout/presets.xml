@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        
+        android:text="@string/preset_header" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/black"
+        android:textColor="@drawable/white_color"
+        android:text="@string/night_mode" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/black"
+        android:textColor="@drawable/white_color"
+        android:text="@string/day_mode" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/black"
+        android:textColor="@drawable/white_color"
+        android:text="@string/vacation" />
+    
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/black"
+        android:textColor="@drawable/white_color"
+        android:text="@string/maintenance" />
+    
+    <Button
+        android:id="@+id/button5"
+        android:background="@drawable/red"
+        android:textColor="@drawable/white_color"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="10dp"
+        android:text="@string/security_off" />
+
+</RelativeLayout>

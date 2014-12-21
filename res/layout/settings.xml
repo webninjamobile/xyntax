@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/profileSwitcher" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="match_parent" android:orientation="vertical"
+			android:padding="10dp">
+
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/select_location"
+				android:layout_marginTop="10dp" android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView android:id="@+id/textView2" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="10dp"
+				android:text="@string/settings2" android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/settings3"
+				android:layout_marginTop="10dp" android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<ListView android:id="@id/android:list"
+				android:layout_width="match_parent" android:layout_height="150dp"
+				android:layout_marginTop="10dp" />
+
+
+			<TextView android:id="@+id/textView4" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/settings4"
+				android:layout_marginTop="10dp" android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			<Button android:id="@+id/button5" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="10dp"
+				android:layout_marginBottom="30dp" android:background="@drawable/red"
+				android:text="@string/reset" android:textColor="@drawable/white_color" />
+
+		</LinearLayout>
+	</ScrollView>
+	
+	
+    <LinearLayout
+        android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:padding="10dp"
+		     >
+		      <TextView
+		    	        android:text="@string/edit_location"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        android:textAppearance="?android:attr/textAppearanceLarge"
+		    	        />
+		      
+		     <TextView
+		    	        android:text="@string/setting_note"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        android:textAppearance="?android:attr/textAppearanceSmall"
+		    	        />
+		     
+		    	<LinearLayout android:layout_marginTop="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">		    	    
+		    	    <TextView
+		    	        android:text="@string/name"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        />
+
+		    	    <EditText
+		    	        android:singleLine="true"
+		    	        android:layout_weight="1"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" />
+
+		    	</LinearLayout>
+				<LinearLayout  android:layout_marginTop="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">		    	    
+		    	    <TextView
+		    	        android:text="@string/address"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        />
+
+		    	    <EditText
+		    	        android:singleLine="true"
+		    	        android:layout_weight="1"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" />
+
+		    	</LinearLayout>
+		    	
+				<LinearLayout  android:layout_marginTop="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">		    	    
+		    	    <TextView
+		    	        android:text="@string/port"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        />
+
+		    	    <EditText
+		    	        android:singleLine="true"
+		    	        android:layout_weight="1"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" />
+
+		    	</LinearLayout>
+		    	
+				<LinearLayout  android:layout_marginTop="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">		    	    
+		    	    <TextView
+		    	        android:text="@string/username"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        />
+
+		    	    <EditText
+		    	        android:singleLine="true"
+		    	        android:layout_weight="1"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" />
+
+		    	</LinearLayout>
+		    	<LinearLayout  android:layout_marginTop="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">		    	    
+		    	    <TextView
+		    	        android:text="@string/password"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        />
+
+		    	    <EditText
+		    	        android:singleLine="true"
+		    	        android:layout_weight="1"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" />
+
+		    	</LinearLayout>
+		    	<LinearLayout  android:layout_marginTop="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">		    	    
+		    	    <TextView
+		    	        android:text="@string/save_password"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content" 
+		    	        android:layout_weight="1"
+		    	        />
+
+		    	    <CheckBox
+		    	        android:id="@+id/checkBox1"
+		    	        android:layout_width="match_parent"
+		    	        android:layout_height="wrap_content"
+		    	        android:layout_weight="1"/>
+
+		    	</LinearLayout>
+		    	
+				 <Button
+		    	        android:id="@+id/button1"
+		    	        android:layout_width="fill_parent"
+		    	        android:layout_height="wrap_content"
+		    	        android:layout_weight="1"
+		    	        android:text="@string/done" />		    	
+		    			    	
+		</LinearLayout>
+		
+			
+</ViewSwitcher>
